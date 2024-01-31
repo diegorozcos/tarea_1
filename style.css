@@ -1,18 +1,26 @@
 /* style.css */
 
 body {
-    background-color: red; /* Establece el color de fondo de la página en rojo */
+  background-color: red; /* Establece el color de fondo de la página en rojo */
+  color: white; /* Establece el color del texto en blanco para mejor contraste */
 }
 
 /* Centra todos los elementos en la página */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la ventana */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Asegura que la altura mínima sea igual a la altura de la ventana */
 }
 
 /* Puedes ajustar este estilo según sea necesario para los elementos específicos de tu página */
-.elemento {
-    text-align: center;
+ol {
+  text-align: center;
+  list-style: none; /* Elimina los estilos de lista predeterminados */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+/* Estilo para los elementos de la lista */
+li {
+  margin: 10px 0; /* Añade un espacio entre los elementos de la lista */
 }
