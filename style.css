@@ -1,0 +1,18 @@
+/* style.css */
+
+body {
+    background-color: red; /* Establece el color de fondo de la página en rojo */
+}
+
+/* Centra todos los elementos en la página */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la ventana */
+}
+
+/* Puedes ajustar este estilo según sea necesario para los elementos específicos de tu página */
+.elemento {
+    text-align: center;
+}
